@@ -1,0 +1,9 @@
+access-list acl_ipsec_inbound line 8 extended permit ip host 10.252.186.48 host 199.27.168.149 (hitcnt=0) 0xcca23558
+access-list acl_ipsec_inbound line 9 extended permit ip host 10.252.186.49 host 199.27.168.149 (hitcnt=0) 0x63934d96
+access-list acl_ipsec_inbound line 10 extended permit ip host 10.252.186.54 host 199.27.168.149 (hitcnt=0) 0x5ee0aa2e
+access-list acl_ipsec_inbound line 11 extended permit ip host 10.252.186.55 host 199.27.168.149 (hitcnt=0) 0x26aa6134
+access-list acl_ipsec_inbound line 12 remark --- allow to some comcast sec/sftp server for merlin files
+access-list acl_ipsec_inbound line 13 remark --- allow to PACDCHYPER13.cable.comcast.com Essbase
+access-list acl_ipsec_inbound line 14 remark --- allow to PACDCHYPER16.cable.comcast.com Essbase
+access-list acl_ipsec_inbound line 15 extended permit ip host 24.40.31.113 object-group tp-dev-resources 0x34e2c593
+  access-list acl_ipsec_inbound line 15 extended permit ip host 24.40.31.113 199.27.168.128 255.255.255.192 (hitcnt=11269) 0xd245c523
