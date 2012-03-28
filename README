@@ -1,0 +1,2 @@
+Just a simple script to take a file with acl lines (including line numbers), reverse the order, remove the trailing stuff (hitcnt, etc)
+and optionally append "no" to the start to make it easy to remove multiple lines from an acl.
